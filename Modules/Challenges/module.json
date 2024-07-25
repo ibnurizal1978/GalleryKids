@@ -1,0 +1,13 @@
+{
+    "name": "Challenges",
+    "alias": "challenges",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Challenges\\Providers\\ChallengesServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

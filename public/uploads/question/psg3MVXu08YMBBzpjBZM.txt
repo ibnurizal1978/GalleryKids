@@ -1,0 +1,1 @@
+ping -c 1 v3-ping-2544-4f8ee966-7464-4d1c-8814-e5f3700cdd13.securityip.appsechcl.com

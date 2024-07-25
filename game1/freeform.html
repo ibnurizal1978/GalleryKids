@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Gallery Pattern Maker</title>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-confirm.min.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/freeform.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59560235-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-59560235-3');
+    </script>
+</head>
+<body>
+    <div class="master-container">
+        <div class="side-nav">
+            <div class="nav-panel" id="nav-panel">
+                <div class="menu-bar">
+                    <div class="btn btn-shapes">
+                        <img src="assets/img/menubtn-shapes.png" alt="">
+                    </div>
+                    <div class="btn btn-colour">
+                        <img src="assets/img/menubtn-colour.png" alt="">
+                    </div>
+                    <div class="btn btn-order">
+                        <img src="assets/img/menubtn-order.png" alt="">
+                    </div>
+                    <div class="divider-line">
+                        <img src="assets/img/divider.png" alt="">
+                    </div>
+                    <div class="btn btn-finish">
+                        <img src="assets/img/menubtn-done.png" alt="">
+                    </div>
+                    <div class="divider-line">
+                        <img src="assets/img/divider.png" alt="">
+                    </div>
+                    <div class="btn btn-new">
+                        <img src="assets/img/menubtn-new.png" alt="">
+                    </div>
+                    <div class="btn btn-menu">
+                        <img src="assets/img/menubtn-menu.png" alt="">
+                    </div>
+                </div><!-- 
+                 
+            --><div class="inner-panel-holder">
+                    <div class="inner-panel panel-colour">
+                        <div class="palette-block">
+                            <div class="title-text">
+                                <img src="assets/img/label-shape-colour.png" alt="">
+                            </div>
+                            <div class="pallete-group image-pallete-group">
+                                <div class="colour-block clr-1" data-color-value="#F62C2C"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-2" data-color-value="#FF9800"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-3" data-color-value="#FFEC16"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-4" data-color-value="#47B04A"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-5" data-color-value="#00A6F6"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-6" data-color-value="#9D1BB2"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-7" data-color-value="#FD25C8"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-8" data-color-value="#000000"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-9" data-color-value="#FFFFFF"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-10" data-color-value="#9D9D9D"><div class="colour-block-inner">&nbsp;</div></div>
+                            </div>
+                        </div>
+                        <div class="preview-holder">
+                            <img src="assets/img/preview-default.png" alt="">
+                        </div>
+                        <div class="palette-block">
+                            <div class="title-text">
+                                <img src="assets/img/label-background-colour.png" alt="">
+                            </div>
+                            <div class="pallete-group background-pallete-group">
+                                <div class="colour-block clr-1" data-color-value="#F62C2C"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-2" data-color-value="#FF9800"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-3" data-color-value="#FFEC16"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-4" data-color-value="#47B04A"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-5" data-color-value="#00A6F6"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-6" data-color-value="#9D1BB2"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-7" data-color-value="#FD25C8"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-8" data-color-value="#000000"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-9" data-color-value="#FFFFFF"><div class="colour-block-inner">&nbsp;</div></div>
+                                <div class="colour-block clr-10" data-color-value="#9D9D9D"><div class="colour-block-inner">&nbsp;</div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inner-panel panel-shapes">
+                        <div class="inner-content">
+                            <div class="shape-btn" data-shape-id="1"><img src="assets/img/shapebtn-1.png" alt=""></div>
+                            <div class="shape-btn" data-shape-id="2"><img src="assets/img/shapebtn-2.png" alt=""></div>
+                            <div class="shape-btn" data-shape-id="3"><img src="assets/img/shapebtn-3.png" alt=""></div>
+                            <div class="shape-btn" data-shape-id="4"><img src="assets/img/shapebtn-4.png" alt=""></div>
+                            <div class="shape-btn" data-shape-id="5"><img src="assets/img/shapebtn-5.png" alt=""></div>
+                            <div class="shape-btn" data-shape-id="6"><img src="assets/img/shapebtn-6.png" alt=""></div>
+                            <div class="shape-btn" data-shape-id="7"><img src="assets/img/shapebtn-7.png" alt=""></div>
+                            <div class="shape-btn" data-shape-id="8"><img src="assets/img/shapebtn-8.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="inner-panel panel-order">
+                        <div class="inner-content">
+                        </div>
+                    </div>
+
+                    <div class="inner-panel panel-finish">
+                        <div class="inner-content">
+                            <div class="headerTxt">
+                                <img src="assets/img/label-great-job.png" alt="">
+                            </div>
+                            <div class="btn-holder btn-download-cube">
+                                <img src="assets/img/download-cube-btn.png" alt="">
+                            </div>
+                            <div class="btn-holder btn-download-wallpaper">
+                                <img src="assets/img/download-wallpaper-btn.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="canvas-holder">
+            <canvas id="canvas"></canvas>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="confirmPopup" tabindex="-1" role="dialog" aria-labelledby="confirmPopup" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmPopupTxt">Are you sure?</h5>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="okbtn">
+                        <img src="assets/img/okBtn.png" alt="">
+                    </button>
+                    <button type="button" data-dismiss="modal">
+                        <img src="assets/img/cancelBtn.png" alt="">
+                    </button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-confirm.min.js"></script>
+    <script src="assets/js/engine.js"></script>
+    <script src="assets/js/freeform.js"></script>
+</body>
+</html>

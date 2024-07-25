@@ -1,0 +1,13 @@
+{
+    "name": "AdminShare",
+    "alias": "adminshare",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\AdminShare\\Providers\\AdminShareServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

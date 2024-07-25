@@ -1,0 +1,67 @@
+[18-Oct-2020 13:35:50 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Controller' not found in /home/national/public_html/gallerykids/public/test.php on line 18
+[18-Oct-2020 13:39:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/national/public_html/gallerykids/public/test.php on line 15
+[18-Oct-2020 13:42:38 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/national/public_html/gallerykids/public/test.php on line 20
+[18-Oct-2020 13:45:51 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 11
+[18-Oct-2020 13:45:55 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 11
+[18-Oct-2020 13:49:23 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 13:51:36 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 21
+[18-Oct-2020 13:51:38 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 21
+[18-Oct-2020 13:51:39 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 21
+[18-Oct-2020 13:51:40 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 21
+[18-Oct-2020 13:54:56 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 13:56:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/national/public_html/gallerykids/public/test.php on line 20
+[18-Oct-2020 13:58:36 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 13:58:39 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 13:59:09 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:02:02 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:03:00 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:06:39 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:15:14 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:15:28 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:17:22 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:17:55 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 6
+[18-Oct-2020 14:19:26 UTC] PHP Warning:  curl_exec(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:19:26 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:19:26 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 25
+[18-Oct-2020 14:22:51 UTC] PHP Warning:  curl_exec(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:22:51 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:22:51 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 25
+[18-Oct-2020 14:23:21 UTC] PHP Warning:  curl_exec(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:23:21 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:23:21 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 25
+[18-Oct-2020 14:23:33 UTC] PHP Warning:  curl_exec(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:23:33 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:23:33 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 25
+[18-Oct-2020 14:24:08 UTC] PHP Warning:  curl_exec(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:24:08 UTC] PHP Warning:  curl_error() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:24:08 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 25
+[18-Oct-2020 14:26:56 UTC] PHP Warning:  curl_errno() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 14
+[18-Oct-2020 14:26:56 UTC] PHP Warning:  curl_getinfo() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 16
+[18-Oct-2020 14:26:56 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 22
+[18-Oct-2020 14:28:14 UTC] PHP Warning:  curl_errno() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 14
+[18-Oct-2020 14:28:14 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 22
+[18-Oct-2020 14:28:18 UTC] PHP Warning:  curl_errno() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 14
+[18-Oct-2020 14:28:18 UTC] PHP Warning:  curl_close() expects parameter 1 to be resource, null given in /home/national/public_html/gallerykids/public/zt.php on line 22
+[18-Oct-2020 14:29:02 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:29:02 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:29:07 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:29:07 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:29:44 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:29:44 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:30:03 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:30:03 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:30:42 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 12
+[18-Oct-2020 14:30:50 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 12
+[18-Oct-2020 14:30:53 UTC] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/national/public_html/gallerykids/public/zt.php on line 12
+[18-Oct-2020 14:31:43 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 15
+[18-Oct-2020 14:31:43 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 17
+[18-Oct-2020 14:34:06 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt_google.php on line 11
+[18-Oct-2020 14:34:06 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt_google.php on line 13
+[18-Oct-2020 14:34:32 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 18
+[18-Oct-2020 14:34:32 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 20
+[18-Oct-2020 14:36:11 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 18
+[18-Oct-2020 14:36:11 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 20
+[18-Oct-2020 14:36:16 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 18
+[18-Oct-2020 14:36:16 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt.php on line 20
+[18-Oct-2020 14:57:33 UTC] PHP Warning:  curl_errno(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt_google.php on line 11
+[18-Oct-2020 14:57:33 UTC] PHP Warning:  curl_getinfo(): supplied resource is not a valid cURL handle resource in /home/national/public_html/gallerykids/public/zt_google.php on line 13

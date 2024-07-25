@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/adminshare",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AdminShare\\Providers\\AdminShareServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AdminShare\\": ""
+        }
+    }
+}

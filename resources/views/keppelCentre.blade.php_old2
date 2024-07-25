@@ -1,0 +1,234 @@
+@extends('layouts.master')
+
+@section('style')
+<style type="text/css">
+
+    .emolist{
+        display:none;    height: 23px;
+        margin-top: 10px;
+    }
+
+    .emolist li{
+        list-style:none;    list-style: none;
+        float: right;
+        margin: 0px 3px;
+        font-size: 26px;}
+    .emolist li:hover{
+        transform: rotate(360deg);
+        transition: 0.6s;
+    }span.msg {
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        color: #0ba0d8;
+    }
+
+    .centernav {
+        top: 70px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 999;
+    }
+    .mtop125{
+        margin-top: 80px;
+    }
+    .listnone{
+        list-style: none;
+    }
+    .catitem4 {
+        cursor: initial !important;
+    }
+    .vbottom {
+        display: block;
+        clear: both;
+        margin-left: 20px !important;
+        padding-top: 40px !important;
+    }
+    .vbottom a{
+        color: #000;
+        border-bottom: 1px solid;
+    }
+</style>
+@endsection
+
+@section('content')
+
+@include('layouts.navbar')
+
+<main style="background-image:url('{{asset('front/img/ktop.png')}}')" class="mtop125">
+    <div class="contwrap kap" style="background-image:url('{{asset('front/img/kbottom.png')}}')">
+        <div id="play-content-kap1" class="mt125">
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-12 col-sm-12 page-content ">
+
+                        <div class="title-lines">
+                            <h3 class="mt0">Keppel centre for<br/> art education</h3>
+                        </div>
+                        <div class="latest-jobs-section ">
+
+                            <div class="col-md-12 kapple-para">
+                                <p>The newly revamped Keppel Centre for Art Education is a dynamic space where art inspires new ways of learning. Come experience immersive spaces that encourage imagination, creativity and self-led exploration. The Centre also provides a lively line-up of programmes for youth, children and families all year round.</p>
+                                <p>Located on Level 1 of the City Hall Wing, the Keppel Centre is easily accessible to schools and families with young children. Admission is free.</p>
+                                <p>The Keppel Centre for Art Education is made possible with the support of Keppel Corporation.</p>
+                            </div>
+
+                            <div class="col-md-4 ">
+                                <div class="catitem4 b1">
+                                    <img src="{{asset('front/img/k1.png')}}" />
+
+                                    <h4>Art PlayScape (4+ years)</h4>
+                                    <p>Embark on your very own Ink-credible Adventure and let movement and chance play a part in the creative process!</p>
+                                    <!--                                    <div class="sharebtn">                                                      <a href="#">Share</a>
+                                        <a href="#"><img src="{{asset('front/img/Icons/like.svg')}}"></a>
+                                    </div>-->
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ">
+                                <div class="catitem4 b1">
+                                    <img src="{{asset('front/img/k2.png')}}" />
+                                    <h4>INK Studio (5+ years)</h4>
+                                    <p>Watch as our robots come alive and whittle across surfaces, leaving random brushstrokes in their trail.</p>
+                                    <!--<div class="sharebtn">
+                                        <a href="#">Share</a>
+                                        <a href="#"><img src="{{asset('front/img/Icons/like.svg')}}"></a>
+                                    </div>-->
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 ">
+                                <div class="catitem4 b1">
+                                    <img src="{{asset('front/img/k3.png')}}" />
+
+                                    <h4>Studio Workshop (5+ years)</h4>
+                                    <p>Pop into our Studio Workshop and enjoy our specially developed art activity together as a family.</p>
+                                    <!--                                    <div class="sharebtn">
+                                        <a href="#">Share</a>
+                                        <a href="#"><img src="{{asset('front/img/Icons/like.svg')}}"></a>
+                                    </div>-->
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="catitem4 b1">
+                                    <img src="{{asset('front/img/k6.png')}}" />
+
+                                    <h4>Project Gallery (4+ years)</h4>
+                                    <p>Let your imagination soar as you explore the larger-than-life
+                                        sculptures in Dayung Sampan: be your own captain on deck.</p>
+                                    <!--                                    <div class="sharebtn">
+                                        <a href="#">Share</a>
+                                        <a href="#"><img src="{{asset('front/img/Icons/like.svg')}}"></a>
+                                    </div>-->
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="catitem4 b1">
+                                    <img src="{{asset('front/img/k5.png')}}" />
+
+                                    <h4>Children's Museum</h4>
+                                    <p>This space is closed as we will be refreshing it to bring you a new creative space in September 2021!</p>
+                                    <!--                                    <div class="sharebtn">
+                                        <a href="#">Share</a>
+                                        <a href="#"><img src="{{asset('front/img/Icons/like.svg')}}"></a>
+                                    </div>-->
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="catitem4 b1">
+                                    <img src="{{asset('front/img/k4.png')}}" />
+
+                                    <h4>Story Corner (4+ years)</h4>
+                                    <p>Do you love stories? Visit our Story Corner and listen, dance and
+                                        sing along with stories inspired by artworks in our Gallery.</p>
+                                    <!--                                    <div class="sharebtn">
+                                        <a href="#">Share</a>
+                                        <a href="#"><img src="{{asset('front/img/Icons/like.svg')}}"></a>
+                                    </div>-->
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+        <div id="play-content2-kap" >
+            <div class="container">
+                <div class="row">
+                    <div class=" col-md-12 col-sm-12 page-content ">
+
+                        <div class="col-md-12 kapple-para2">
+                            <h4>2018 CHILDREN IN MUSEUMS AWARD</h4>
+                            <p>A dynamic 21st-century centre for education within an art gallery, the Keppel Centre for Art Education at National Gallery Singapore prides itself on fostering a lifelong love for art in children at an early age.</p>
+                            <p>The Keppel Centre for Art Education was the winner of the 2018 Children in Museums Award, organised by the European Museum Academy and Hands On! International Association of Children in Museums. For more information about these awards, <a rel="noopener noreferrer" href="https://www.hands-on-international.net/award/award-winner-2018/" target="_blank" class="redlink">click here.</a></p>
+
+                        </div>
+
+                        <div class="kapple-section-visit">
+                            <h4>What you need to know before visiting:</h4>
+                            <p>To ensure a safe experience for you and your family, the capacity of the Centre will be revised according to current applicable guidelines. Kindly note the opening hours as the Centre will be closed during other hours for cleaning and disinfection.</p>
+                            <div class="col-md-6 col-xs-12 col-sm-12 ">
+                                <div class="visitbox">
+                                    <p>Opening hours:</p>
+                                    <ul>
+                                        <li>10am-11am</li>
+                                        <li>11am-12nn</li>
+                                        <li>1pm-2pm</li>
+                                        <li>2pm-3pm</li>
+                                        <li>4pm-5pm</li>
+                                        <li>5pm-6pm</li>
+                                        <li>6pm-7pm</li>
+
+                                    </ul>
+                                    <br/>
+                                    <p>Cleaning and disinfection:</p>
+                                    <ul>
+                                        <li>12nn-1pm</li>
+                                        <li>3pm-4pm</li>
+                                        <li>After 7pm</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-xs-12 col-sm-12 ">
+                                <div class="visitbox">
+                                    <p>Recommended dwell time:</p>
+                                    <ul>
+                                        <li>Art Playscape - 10 minutes</li>
+                                        <li>Project Gallery - 10 minutes</li>
+                                        <li>Sculpture Studio - Closed till 3 Sep 2021</li>
+                                        <li>Ink Studio - 10 minutes</li>
+                                        <li>Studio Workshops - 15 minutes</li>
+                                        <li>Story Corner - 10 minutes</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br/>
+                            <p class="vbottom">Find out more about our safe management measures <a rel="noopener noreferrer" target="_blank" href="https://www.nationalgallery.sg/advisory">here</a>.</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomheightk"></div>
+    </div>
+
+</main>
+
+
+
+
+
+@endsection   
+
+@section('script')
+
+<script src="{{asset('front/plugins/clipboard.min.js')}}"></script>
+
+
+@endsection  

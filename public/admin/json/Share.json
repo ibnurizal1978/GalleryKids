@@ -1,0 +1,1025 @@
+[
+   {
+      "call_return":{
+         "error":{
+            "root_cause":[
+               {
+                  "type":"",
+                  "reason":""
+               }
+            ]
+         },
+         "status":0
+      }
+   },
+   {
+      "umo_id":11755504,
+      "image_type":"PHOTO",
+      "name":"1997-02652.jpg",
+      "date_updated":"02-apr-2020 22:08:13",
+      "derivs":[
+         {
+            "order":2,
+            "pk":29149187,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3EBC227672D19CA372D026927252B8CFB&s=21&se=1939004166&v=1&f=1997-02652_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":32853,
+            "width":160,
+            "height":240,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1997-02652_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":29149189,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D33F5B42D3A1834F4DB84F5F3E306BE922&s=21&se=1939004166&v=1&f=1997-02652_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":64749,
+            "width":320,
+            "height":480,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1997-02652_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":29149191,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D39D4247BBDB5B8FB1E58C4FF704F93158&s=21&se=1939004166&v=1&f=1997-02652_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":300164,
+            "width":720,
+            "height":1080,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1997-02652_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":29149193,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3CBEE19B1F8B7F0CCA44A7BE0AF115D1B&s=21&se=1939004166&v=1&f=1997-02652_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":435942,
+            "width":853,
+            "height":1280,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1997-02652_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"1997-02652",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1895",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"1991",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Dora Gordine"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Sculpture",
+         "ARTWORK DATA.COPYRIGHT":[
+            "Non-Exclusive Licence"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Collection of National Gallery Singapore",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Object measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"27 x 18 x 23 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"France",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Bronze",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100032545",
+         "ARTWORK DATA.TITLE":[
+            "Chinese Head"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"Text for educator notes",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   },
+   {
+      "umo_id":11835937,
+      "image_type":"PHOTO",
+      "name":"2005-00464 (cropped).jpg",
+      "date_updated":"30-sep-2019 21:01:47",
+      "derivs":[
+         {
+            "order":2,
+            "pk":29098103,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3E3C02DB945CD9FF5B96C51AF05B63C80&s=21&se=1939004166&v=1&f=2005-00464%20(cropped)_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":45939,
+            "width":240,
+            "height":148,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2005-00464 (cropped)_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":29098109,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3B3A6D735B87B8AA0ABC4E597613F92DE&s=21&se=1939004166&v=1&f=2005-00464%20(cropped)_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":75952,
+            "width":480,
+            "height":295,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2005-00464 (cropped)_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":29098117,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3232394BB00AC702170E265F12355D1E6&s=21&se=1939004166&v=1&f=2005-00464%20(cropped)_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":223175,
+            "width":1080,
+            "height":665,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2005-00464 (cropped)_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":29098125,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D32E6703975DC51E334438D8ACF7E8042E&s=21&se=1939004166&v=1&f=2005-00464%20(cropped)_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":296259,
+            "width":1280,
+            "height":788,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2005-00464 (cropped)_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"2005-00464",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1924",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"1987",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Ahmad Sadali"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Paintings",
+         "ARTWORK DATA.COPYRIGHT":[
+            "CF - copyright documents received, full copyright granted"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Collection of National Gallery Singapore",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"1957",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Image measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"47 x 75 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"SC-03-GA-07",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2015-11 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2016 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2017 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2018 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2019 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            }
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"Indonesia",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Oil on canvas",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"SC-03-GA-07",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100012957",
+         "ARTWORK DATA.TITLE":[
+            "Skyline of New York"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   },
+   {
+      "umo_id":11886490,
+      "image_type":"PHOTO",
+      "name":"2010-01348 (cropped).jpg",
+      "date_updated":"09-oct-2019 21:01:55",
+      "derivs":[
+         {
+            "order":2,
+            "pk":29101891,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3B20054FC8C7A7CC53389741B81CDFBDE&s=21&se=1939004166&v=1&f=2010-01348%20(cropped)_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":44088,
+            "width":195,
+            "height":240,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2010-01348 (cropped)_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":29101897,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3196578CC75EDF3546576BDE3F5FD370E&s=21&se=1939004166&v=1&f=2010-01348%20(cropped)_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":98263,
+            "width":391,
+            "height":480,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2010-01348 (cropped)_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":29101903,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D348D30FD269D666E1E91C5980B98CE71C&s=21&se=1939004166&v=1&f=2010-01348%20(cropped)_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":320516,
+            "width":879,
+            "height":1080,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2010-01348 (cropped)_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":29101907,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D309ED42A06B3F7F450423054AB9F285A1&s=21&se=1939004166&v=1&f=2010-01348%20(cropped)_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":413190,
+            "width":1042,
+            "height":1280,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2010-01348 (cropped)_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"2010-01348",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1917",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"1983",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Cheong Soo Pieng"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Paintings",
+         "ARTWORK DATA.COPYRIGHT":[
+            "CF - copyright documents received, full copyright granted"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Gift of the Loke Wan Tho Collection. Collection of National Gallery Singapore.",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"1953",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Frame measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"94 x 78 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DECISION":"Completed",
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"CH-03-GA-01",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"Reframing Modernism, Painting from Southeast Asia, Europe & Beyond"
+            }
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"Singapore",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Oil on canvas",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"CH-03-GA-01",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100020059",
+         "ARTWORK DATA.TITLE":[
+            "[Not titled] (Puppet Maker)"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   },
+   {
+      "umo_id":12022523,
+      "image_type":"PHOTO",
+      "name":"P-0795 (cropped).jpg",
+      "date_updated":"19-sep-2019 21:02:23",
+      "derivs":[
+         {
+            "order":2,
+            "pk":29094887,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D321000D9686DCE44BF8845C91C1EE518F&s=21&se=1939004166&v=1&f=P-0795%20(cropped)_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":75541,
+            "width":240,
+            "height":194,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0795 (cropped)_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":29094893,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D33E3CC4B69833930C85E022A3C3F6B795&s=21&se=1939004166&v=1&f=P-0795%20(cropped)_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":152759,
+            "width":480,
+            "height":388,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0795 (cropped)_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":29094899,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D33EBB7E9096B06CB6F3B65F0FEF3CCF0E&s=21&se=1939004166&v=1&f=P-0795%20(cropped)_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":573006,
+            "width":1080,
+            "height":873,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0795 (cropped)_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":29094907,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3B03741C7E3038EF6F72657035F9B4765&s=21&se=1939004166&v=1&f=P-0795%20(cropped)_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":790236,
+            "width":1280,
+            "height":1034,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0795 (cropped)_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"P-0795",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1906",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"1993",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Georgette Chen"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Paintings",
+         "ARTWORK DATA.COPYRIGHT":[
+            "CF - copyright documents received, full copyright granted"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Gift of Lee Foundation. Collection of National Gallery Singapore.",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"c. 1963",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Object Dimensions",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"50 x 61 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"CH-02-GA-02",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2015-11 Siapa Nama Kamu? Art in Singapore since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"CH-02-GA-02",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2018 Siapa Nama Kamu? Art in Singapore since the 19th Century"
+            }
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"Singapore",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Oil on canvas",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"CH-02-GA-02",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100012800",
+         "ARTWORK DATA.TITLE":[
+            "Singapore Waterfront"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   },
+   {
+      "umo_id":14763049,
+      "image_type":"PHOTO",
+      "name":"P-0521 (cropped).jpg",
+      "date_updated":"24-jan-2020 09:00:32",
+      "derivs":[
+         {
+            "order":2,
+            "pk":14763388,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54BB0BF6620E0EAF8945127A270C66A41B924FD3409B37D13&s=21&se=1939004166&v=1&f=P-0521%20(cropped)_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":86234,
+            "width":240,
+            "height":149,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0521 (cropped)_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":14763460,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54BB0BF6620E0EAF8C88192587765F6C3D182B2F8B6A1EC54&s=21&se=1939004166&v=1&f=P-0521%20(cropped)_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":175228,
+            "width":480,
+            "height":298,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0521 (cropped)_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":14763500,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54BB0BF6620E0EAF8C93EEB72B429B73C5CB5ADA305440FCF&s=21&se=1939004166&v=1&f=P-0521%20(cropped)_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":597933,
+            "width":1080,
+            "height":670,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0521 (cropped)_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":14763522,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54BB0BF6620E0EAF8BF639ED935C6570F7BD2DDFA34DB52E4&s=21&se=1939004166&v=1&f=P-0521%20(cropped)_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":801673,
+            "width":1280,
+            "height":794,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"P-0521 (cropped)_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"P-0521",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1911",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"2004",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Liu Kang"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Paintings",
+         "ARTWORK DATA.COPYRIGHT":[
+            "CF - copyright documents received, full copyright granted"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Gift of the artist. Collection of National Gallery Singapore.",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"1975",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Object Dimensions",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"126 x 203 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"CH-02-GA-01",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2015-11 Siapa Nama Kamu? Art in Singapore since the 19th Century"
+            }
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"Singapore",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Oil on canvas",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"CH-02-GA-01",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100012374",
+         "ARTWORK DATA.TITLE":[
+            "Life by the River"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   },
+   {
+      "umo_id":152237150,
+      "image_type":"PHOTO",
+      "name":"1996-00165.tif",
+      "date_updated":"08-oct-2019 21:05:24",
+      "derivs":[
+         {
+            "order":2,
+            "pk":29101107,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3A5D2EFC28A1055C87C4F7647E08A4E7F&s=21&se=1939004166&v=1&f=1996-00165_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":41573,
+            "width":150,
+            "height":240,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1996-00165_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":29101111,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3EE033C4C113A2BA3EFBF7B4D644CABF1&s=21&se=1939004166&v=1&f=1996-00165_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":80724,
+            "width":300,
+            "height":480,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1996-00165_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":29101113,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D39B70689ED36AC4FB9FADC0EC0CE76D75&s=21&se=1939004166&v=1&f=1996-00165_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":279103,
+            "width":675,
+            "height":1080,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1996-00165_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":29101119,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3F4E9C7B641B6C074970B57D6C4AC0FF0&s=21&se=1939004166&v=1&f=1996-00165_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":376649,
+            "width":800,
+            "height":1280,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"1996-00165_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"1996-00165",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1931",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"1995",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Lai Foong Moi"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Paintings",
+         "ARTWORK DATA.COPYRIGHT":[
+            "CF - copyright documents received, full copyright granted"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Collection of National Gallery Singapore",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"1961",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Frame measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"81.6 x 54.3 x 2.2 cm"
+            },
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Image measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"75.3 x 48 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"DBS Singapore Gallery 1",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2018 Siapa Nama Kamu? Art in Singapore since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"DBS Singapore Gallery 1",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2017 Siapa Nama Kamu? Art in Singapore since the 19th Century"
+            }
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"Singapore",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Oil on canvas",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"DBS Singapore Gallery 1",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100016407",
+         "ARTWORK DATA.TITLE":[
+            "Trishaw Rider"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   },
+   {
+      "umo_id":152239642,
+      "image_type":"PHOTO",
+      "name":"2015-00416.tif",
+      "date_updated":"08-oct-2019 21:06:37",
+      "derivs":[
+         {
+            "order":2,
+            "pk":29101243,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3C724412B80CAD0F3CA2D04F7DBC0D3C5&s=21&se=1939004166&v=1&f=2015-00416_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":51535,
+            "width":200,
+            "height":240,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2015-00416_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":29101247,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D331EDE319D135285D815A84771BDCC3C6&s=21&se=1939004166&v=1&f=2015-00416_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":101668,
+            "width":400,
+            "height":480,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2015-00416_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":29101255,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D35FC088145E5734EE85DC06A8F62CF7D8&s=21&se=1939004166&v=1&f=2015-00416_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":309998,
+            "width":901,
+            "height":1080,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2015-00416_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":29101257,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D354B172CE4D3973601E27BEC9B97A3D5A&s=21&se=1939004166&v=1&f=2015-00416_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":399646,
+            "width":1068,
+            "height":1280,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2015-00416_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"2015-00416",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1910",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"1993",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Fua Haribhitak"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Paintings",
+         "ARTWORK DATA.COPYRIGHT":[
+            "CF - copyright documents received, full copyright granted"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Collection of National Gallery Singapore",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"c. 1956",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Image measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"65 x 55 cm"
+            },
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Frame measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"74.6 x 64.5 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"SC-03-GA-07",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2015-11 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2016 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2017 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2018 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2019 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            }
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"Thailand",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Oil on canvas",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"SC-03-GA-07",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100016064",
+         "ARTWORK DATA.TITLE":[
+            "Face"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   },
+   {
+      "umo_id":167015526,
+      "image_type":"PHOTO",
+      "name":"2014-00321_NGS.tif",
+      "date_updated":"31-oct-2019 22:01:29",
+      "derivs":[
+         {
+            "order":2,
+            "pk":29107133,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3F3AF262BDCA8C171412D400B5CEE1E3D&s=21&se=1939004166&v=1&f=2014-00321_NGS_o2.jpg",
+            "mimetype":"image/jpeg",
+            "size":52895,
+            "width":240,
+            "height":181,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2014-00321_NGS_o2.jpg",
+            "item_name":"Thumbnail",
+            "is_free":"T"
+         },
+         {
+            "order":3,
+            "pk":29107135,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D3AC8F74E8CB59ADE466D3F73F011103A8&s=21&se=1939004166&v=1&f=2014-00321_NGS_o3.jpg",
+            "mimetype":"image/jpeg",
+            "size":92443,
+            "width":480,
+            "height":361,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2014-00321_NGS_o3.jpg",
+            "item_name":"Email Quality",
+            "is_free":"T"
+         },
+         {
+            "order":4,
+            "pk":29107139,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D36AF4F4DC1C3C0021718EFF2ECAADFFD5&s=21&se=1939004166&v=1&f=2014-00321_NGS_o4.jpg",
+            "mimetype":"image/jpeg",
+            "size":265460,
+            "width":1080,
+            "height":813,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2014-00321_NGS_o4.jpg",
+            "item_name":"Office Quality",
+            "is_free":"T"
+         },
+         {
+            "order":5,
+            "pk":29107143,
+            "url":"https://dmz.nationalgallery.sg/piction/ump.di?e=FD8D61E754B1CAC54533F9806BA8C2D33E763022F331F23FB9E9A796E9304E92&s=21&se=1939004166&v=1&f=2014-00321_NGS_o5.jpg",
+            "mimetype":"image/jpeg",
+            "size":346170,
+            "width":1280,
+            "height":964,
+            "fileformat":"",
+            "compressionformat":"",
+            "name":"2014-00321_NGS_o5.jpg",
+            "item_name":"High Quality Print",
+            "is_free":"T"
+         }
+      ],
+      "metadata":{
+         "ARTWORK DATA.ACCESSIONNUMBER":"2014-00321",
+         "ARTWORK DATA.ARTIST":[
+            {
+               "ARTWORK DATA.ARTIST:ARTIST_DOB":"1811",
+               "ARTWORK DATA.ARTIST:ARTIST_DOD":"1880",
+               "ARTWORK DATA.ARTIST:ARTIST_NAME":"Raden Saleh"
+            }
+         ],
+         "ARTWORK DATA.CAPTION":"",
+         "ARTWORK DATA.CLASSIFICATION":"Paintings",
+         "ARTWORK DATA.COPYRIGHT":[
+            "CE - copyright expired (no need to ask)"
+         ],
+         "ARTWORK DATA.CREDITLINE":"Collection of National Gallery Singapore. This work of art has been adopted by the Yong Hon Kong Foundation.",
+         "ARTWORK DATA.DATE_OF_ART_CREATED":"1849",
+         "ARTWORK DATA.DESCRIPTION":"",
+         "ARTWORK DATA.DIMENSIONS":"",
+         "ARTWORK DATA.DIMENSIONS DATA":[
+            {
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION TYPE":"Image measure",
+               "ARTWORK DATA.DIMENSIONS DATA:DIMENSION U_SUMMARY DATA":"300 x 396 cm"
+            }
+         ],
+         "ARTWORK DATA.DOMAIN":"",
+         "ARTWORK DATA.EXHIBITION_HISTORY":[
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:DISPLAY_LOCATION":"SC-03-GA-02",
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2015-11 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2016 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2017 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2018 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            },
+            {
+               "ARTWORK DATA.EXHIBITION_HISTORY:EXHIBITION_TITLE":"2019 Between Declarations and Dreams: Art of Southeast Asia since the 19th Century"
+            }
+         ],
+         "ARTWORK DATA.GENRE":"",
+         "ARTWORK DATA.GEOGRAPHIC_ASSOCIATION":"Indonesia",
+         "ARTWORK DATA.ID":"",
+         "ARTWORK DATA.KEYWORDS":"",
+         "ARTWORK DATA.MEDIUM":"Oil on canvas",
+         "ARTWORK DATA.OBJECT_STATUS":"",
+         "ARTWORK DATA.ON_DISPLAY":"",
+         "ARTWORK DATA.OWNER":"",
+         "ARTWORK DATA.PHOTOGRAPHER":"",
+         "ARTWORK DATA.PHYSICAL_DISPLAY":"SC-03-GA-02",
+         "ARTWORK DATA.PRIMARY":"",
+         "ARTWORK DATA.PUBLISHED DIMENSION":"",
+         "ARTWORK DATA.PUBLISHED_ON":"",
+         "ARTWORK DATA.RESTRICTEDORNONRESTRICTED":"",
+         "ARTWORK DATA.RESTRICTION":"",
+         "ARTWORK DATA.RIGHTS_REMARKS":[
+            ""
+         ],
+         "ARTWORK DATA.SYSTEM_ID":"100012964",
+         "ARTWORK DATA.TITLE":[
+            "Boschbrand (Forest Fire)"
+         ],
+         "KIDS_GALLERY.EDUCATOR_NOTES":"",
+         "KIDS_GALLERY.PUBLISH_TO_KIDS_CLUB":"YES"
+      }
+   }
+]

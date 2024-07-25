@@ -1,0 +1,233 @@
+.mb-10px {
+    margin-bottom: 10px;
+}
+
+.mb-15px {
+    margin-bottom: 15px;
+}
+
+.mb-20px {
+    margin-bottom: 15px;
+}
+
+.ql-align-center {
+    text-align: center !important;
+}
+
+.title-container {
+    margin-top: 200px;
+    margin-bottom: 53px;
+}
+
+.title-container h1,
+.title-container h2,
+.title-container h3,
+.title-container h4,
+.title-container h5,
+.title-container h6 {
+    position: relative;
+    display: block;
+    padding: 0 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'vegr', sans-serif;
+    font-weight: 100;
+    color: #000000;
+    font-size: 45px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    opacity: 1;
+    color: #FCE0AC;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #9C9CC0;
+    opacity: 1;
+}
+
+.slick-nav-left, .slick-nav-right {
+    font-size: 32px;
+    position: absolute;
+    top: 50%;
+    display: block;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #000;
+    border: none;
+    outline: none;
+    font-family: 'FontAwesome';
+}
+
+.slick-nav-left{
+    left: -25px;
+}
+
+.slick-nav-right{
+    right: -25px;
+}
+
+.space-sliders .slick-nav-left{
+    left: -40px;
+}
+
+.space-sliders .slick-nav-right{
+    right: -40px;
+}
+
+.open_popup {
+    display: block;
+}
+
+.hero_slider_title {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#hero-slider {
+    /*margin-left: -15px;*/
+    /*margin-right: -15px;*/
+    margin-bottom: 50px;
+}
+
+#hero-slider .hero-slide {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#hero-slider .hero-slide .inner {
+    border: 3px solid #9d9dc2;
+    box-shadow: 2px 2px 9px rgb(0 0 0 / 20%);
+    border-radius: 15px;
+    overflow: hidden;
+	height: 200px;
+}
+
+#hero-slider .hero-slide .inner iframe {
+    pointer-events: none;
+    width: calc(100% + 5px);
+    margin-bottom: -5px;
+}
+
+#hero-slider .slick-list {
+    margin-bottom: 15px;
+}
+
+#mid-section a {
+    color: #e51937;
+}
+
+#spaces-section .space_cat {
+    margin-bottom: 20px;
+}
+
+#spaces-section .space_cat h2 {
+    text-transform: uppercase;
+    font-family: 'vegr', sans-serif;
+    font-weight: 100;
+    color: #000000;
+    font-size: 28px;
+    text-align: center;
+}
+
+#spaces-section .spaces_list {
+    float: left;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#spaces-section .spaces_list:last-of-type {
+    margin-bottom: 0;
+}
+
+#spaces-section .spaces_list .catitem {
+    border: 3px solid #9d9dc2;
+}
+
+#spaces-section .spaces_list .catitem img { /* used to height:auto, Rizal change it to make image similar */
+	
+}
+
+#spaces-section .spaces_list .catitem .sharebtn {
+    position: relative;
+}
+
+#spaces-section .spaces_list .catitem .sharebtn a img {
+    height: 37px;
+}
+
+#spaces-section .spaces_list p {
+    height: 106px;
+    line-height: 18px;
+}
+
+#spaces-section .spaces_list .no_slides {
+    cursor: default;
+}
+
+#spaces-section .spaces_list .open_space_popup:hover,
+#spaces-section .spaces_list .open_space_popup:focus {
+    text-decoration: none;
+}
+
+#spaces-section .spaces_list .sharebtn {
+    margin-top: 0;
+}
+
+#spaces-section .spaces_list .shlist {
+    bottom: 60%;
+}
+
+#spaces-section .space-slide img {
+    height: auto;
+    border-radius: 0;
+}
+
+#spaces-section .space-slide h4 {
+    padding-left: 0;
+    text-transform: none;
+    font-size: 21px;
+}
+
+#spaces-section .space-slide p {
+    height: auto;
+    padding-left: 0;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .title-container {
+        margin-top: 57px;
+        margin-bottom: 33px;
+    }
+
+    .title-container h1,
+    .title-container h2,
+    .title-container h3,
+    .title-container h4,
+    .title-container h5,
+    .title-container h6 {
+        font-size: 20px;
+    }
+
+    #hero-slider {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #hero-slider .hero-slide {
+        padding: 0;
+    }
+
+    .space-sliders .slick-nav-left{
+        left: -40px;
+    }
+
+    .space-sliders .slick-nav-right{
+        right: -40px;
+    }
+}

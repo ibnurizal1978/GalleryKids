@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ceramic Web</title>
+    <link rel="stylesheet" href="./styles.min.css">
+    <script src="./assets/lib/particles.min.js"></script>
+    <script src="./assets/lib/html2canvas.min.js"></script>
+    <script src="./assets/lib/gsap.min.js"></script>
+    <script src='./patterns.js' defer></script>
+    <script src='./main.min.js' defer></script>
+</head>
+<body class='page game-page'>
+    <div id="loading">
+        <img src="assets/images/loading.gif" alt="">
+    </div>
+    <div id="root">
+        <div class="blocker">
+            <img src="assets/images/rotate.gif" alt=""><br/>
+            This game was meant to run in landscape mode.<br/><br/>Please rotate your screen to proceed.
+        </div>
+        <div class="content-holder">
+            <div class="header">
+                <div class="back-button-holder">
+                    <a href="https://www.nationalgallery.sg/gallerykids/" class="back-button">
+                        <img src="assets/images/back-btn.png" alt="">
+                    </a>
+                </div>
+                <div class="header-logo-holder">
+                    <img src="assets/images/game-logo.png" class="header-logo" alt="">
+                </div>
+                <div class="ngs-logo-holder">
+                    <img src="assets/images/ngs-logo.png" class="ngs-logo" alt="">
+                </div>
+            </div>
+
+            <div class="info-content-holder">
+                <div class="info-popup">
+                    <div class="close-btn">
+                        <img src="assets/images/close-btn.png" alt="">
+                    </div>
+                    <div class="popup-content">
+                        <div class="logo-holder">
+                            <img src="assets/images/info-btn.png" class="logo-1" alt="">
+                            <img src="assets/images/findoutmore-btn.png" class="logo-2" alt="">
+                        </div>
+                        <div class="info-content">
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="info-blocker"></div>
+            </div>
+
+            <div class="sections">
+                <div class="pot-holder">
+                    <div class="broken-vase">
+                        <img src="assets/images/broken-vase.png" alt="">
+                    </div>
+                    <div class="pot-options-holder">
+                        <svg version="1.1" class="pot-option pot-option-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="1">
+                            <defs>
+                                <mask id="pot-1-mask-1">
+                                    <path class="st0" d="M415.9,72.9c-31.1-16-65.9-25.8-103-27.7h-26C183.7,50.4,97,117.2,64.2,209h471.7
+		                                C514.7,150.1,471.5,101.5,415.9,72.9z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-1-mask-2">
+                                    <path class="st0" d="M301,218.2c-31.9,0-56.9,45.8-56.9,76.3c0,15.3,13.9,81.8,68,70.7s61-33.3,61-74.9S332.9,218.2,301,218.2z" fill="#000000"/>
+                                    <path class="st1" d="M535.8,209H64.2C55,234.6,50,262.1,50,290.7c0,28.8,5,56.4,14.3,82.1h471.4c9.2-25.7,14.3-53.3,14.3-82.1
+                                            C550,262.1,545,234.6,535.8,209z M312.1,365.3c-54.1,11.1-68-55.5-68-70.7c0-30.5,25-76.3,56.9-76.3s72.1,30.5,72.1,72.1
+                                            S366.2,354.2,312.1,365.3z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-1-mask-3">
+                                    <path class="st0" d="M535.7,372.8H64.3c31.4,87.3,111.6,152,208.4,162.3c9,1,18.1,1.5,27.3,1.5
+		                                C408.8,536.5,501.4,468.2,535.7,372.8z" fill="#FFFFFF"/>
+                                </mask>
+                                <defs>
+                                    <linearGradient id="pot-main-bg-1" gradientTransform="rotate(90)">
+                                        <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-1" />
+                                        <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-1"/>
+                                        <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-1"/>
+                                        <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-1"/>
+                                    </linearGradient>
+                                </defs>
+                            </defs>
+                            <ellipse class="st0" cx="290.7" cy="541.4" rx="150.9" ry="13.7" opacity="0.2" fill="#000000"/>
+                            <g>
+                                <path class="st0" d="M373.2,290.4c0-41.6-40.2-72.1-72.1-72.1s-56.9,45.8-56.9,76.3c0,15.3,13.9,81.8,68,70.7
+                                    S373.2,332,373.2,290.4z" fill="none"/>
+                                <path class="st1" d="M415.9,72.9c-34.7-17.9-74.1-28-115.9-28c-138.1,0-250,110.1-250,245.8c0,126.7,97.5,231,222.7,244.4
+                                    c9,1,18.1,1.5,27.3,1.5c138.1,0,250-110.1,250-245.8C550,196.1,495.6,114,415.9,72.9z M244.2,294.5c0-30.5,25-76.3,56.9-76.3
+                                    s72.1,30.5,72.1,72.1s-6.9,63.8-61,74.9S244.2,309.8,244.2,294.5z" fill="url(#pot-main-bg-1)"/>
+                            </g>
+                            <g>
+                                <path class="st0" d="M219.8,79.5c-2,0.4-4,1.2-5.8,2.2C194.6,92.2,75,162.1,75,287.1c0,111.4,78.9,174.3,107.4,193.4
+                                    c5.5,3.7,12.9,2.2,16.5-3.3h0c2.9-4.3,2.6-10-0.6-14.1c-20.4-25.3-107.7-70.7-93.9-193c10.2-90,68.8-132.1,120.4-157.9
+                                    c2.7-1.4,9-3.4,14.2-11C244.7,92.8,245.2,74.2,219.8,79.5z" opacity="0.4" fill="#FFFFFF"/>
+                                <path class="st1" d="M550,290.7c0-94.6-54.4-176.8-134.1-217.8c1.8,1.7,106,100.2,106,207.7c0,108.5-71.5,214-194.1,244.4
+                                    c-20.1,5-38.5,8.2-55.2,10c9,1,18.1,1.5,27.3,1.5C438.1,536.5,550,426.5,550,290.7z" opacity="0.2" fill="#000000"/>
+                                <path class="st1" d="M244.2,294.5c0-29.8,23.8-74.2,54.7-76.2l0-0.1c0,0-78.4-11.6-75.5,80.6c2.8,93,88.8,66.4,88.8,66.4
+                                    C258,376.4,244.2,309.8,244.2,294.5z" opacity="0.2" fill="#000000"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-140' mask="url(#pot-1-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-1-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-1-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+                        
+                        <svg version="1.1" class="pot-option pot-option-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="2">
+                            <defs>
+                                <mask id="pot-2-mask-1">
+                                    <path class="st0" d="M489.7,96.8c1.2-3.5,5.9-8.6,5.6-14.7c-0.4-8.8-11.2-19.6-57.8-30.4c-79-18.3-211.6-16.9-266.6-7.1
+                                    c-55,9.9-63.5,31-56.4,48c7.1,16.9,5.6,19.7-4.2,43.7c-5,12.2-13.9,40.1-21.5,71.6h428.8c-5.8-31-14.3-49.4-22.3-64.6
+                                    C481.3,116.6,486.9,105.3,489.7,96.8z" fill="#FFFFFF"/>
+                                    <ellipse transform="matrix(2.379230e-02 -0.9997 0.9997 2.379230e-02 227.8559 373.8362)" class="st0" cx="305.3" cy="70.2" rx="22.7" ry="167.5" fill="#000000"/>
+                                </mask>
+                                <mask id="pot-2-mask-2">
+                                    <path class="st1" d="M517.6,207.9H88.8c-7.3,30.4-13.5,64.3-13.8,90.6c-0.4,31,3.6,57.3,10.7,79.9h429.6
+                                    c6.6-22.2,9.6-46.3,9.6-72.8C525,262.8,522.1,231.7,517.6,207.9z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-2-mask-3">
+                                    <path class="st0" d="M183.6,496c17.6,11.4,32.1,23.7,47.1,33.5c33.2,21.7,68.5,31.6,143.3-5.3C453.6,485,497.5,439,515.4,378.4
+                                    H85.8C104,436,143.1,469.7,183.6,496z" fill="#FFFFFF"/>
+                                </mask>
+                                <linearGradient id="pot-main-bg-2" gradientTransform="rotate(90)">
+                                    <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-2" />
+                                    <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-2"/>
+                                    <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-2"/>
+                                    <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-2"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="st0" cx="289.3" cy="548.6" rx="153.4" ry="13.9" opacity="0.2" fill="#000000"/>
+                            <path class="st0" d="M495.4,143.4c-14.1-26.8-8.5-38.1-5.6-46.5c1.2-3.5,5.9-8.6,5.6-14.7c-0.4-8.8-11.2-19.6-57.8-30.4
+                            c-79-18.3-211.6-16.9-266.6-7.1s-63.5,31-56.4,48s5.6,19.7-4.2,43.7S75.7,244.9,75,298.5c-1.4,110,52.2,160.8,108.6,197.5
+                            c17.6,11.4,32.1,23.7,47.1,33.5c33.2,21.7,68.5,31.6,143.3-5.3C482.7,470.6,525,404.3,525,305.6S509.5,170.2,495.4,143.4z" fill="url(#pot-main-bg-2)"/>
+                            <g>
+                                <ellipse transform="matrix(2.379230e-02 -0.9997 0.9997 2.379230e-02 227.8559 373.8362)" class="st0" cx="305.3" cy="70.2" rx="22.7" ry="167.5" fill="#66563A"/>
+                                <path class="st1" d="M152.8,117.1l39,8.3c0,0-62.9,100.2-59.5,192.4c2.5,69.6,37.1,117.3,55.1,137.6c3.8,4.2,0.8,10.9-4.9,10.9h0
+                                    c0,0-80.9-48.6-81.4-171.6C100.7,185.5,152.8,117.1,152.8,117.1z" opacity="0.4" fill="#FFFFFF"/>
+                                <path class="st2" d="M374.1,523.9C482.7,470.3,525,404,525,305.3s-15.5-135.4-29.6-162.2c-14.1-26.8-8.5-38.1-5.6-46.5
+                                    c1.2-3.5,8.8-11.3,4.1-19.6c1.8,16.6-23.1,20.1-50,23c0,0,19.8,28.7,29.2,54.7c9.7,26.7,24.4,46.1,26.3,149.8
+                                    c1.9,103.7-76,168.7-94.7,183.6s-74.3,42.7-104.5,49.5c-30.2,6.7-69.2-8.3-69.2-8.3C264,550.9,299.3,560.8,374.1,523.9z" opacity="0.2" fill="#000000"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-140' mask="url(#pot-2-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-2-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-2-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+                        
+                        <svg version="1.1" class="pot-option pot-option-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="3">
+                            <defs>
+                                <mask id="pot-3-mask-1">
+                                    <path class="st0" d="M396.8,138.3c-38.5-17-56.6-19.2-57.7-37.4s24.9-56.6,23.8-64.5c0-5.6-29.7-10.2-66.2-10.2
+                                    c-36.6,0-66.2,4.6-66.2,10.2c0,0.3,0.1,0.7,0.3,1c0.8,2.4,3.1,8.6,7.6,14.9c5.7,7.9,17,30.6,17,38.5c0,7.9,1.1,21.5-7.9,26
+                                    C238.3,121.3,184,144,184,144s-33.8,14.6-34,60.8h292.9C441.1,185.1,432.9,154.2,396.8,138.3z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-3-mask-2">
+                                    <path class="st1" d="M442.9,204.7H150c0,0.1,0,0.2,0,0.4c0,26.7,1.5,110.1,2.8,179.3h295.4c-1.8-73.4-4.3-163.7-5-175.9
+                                    C443.1,207.3,443,206,442.9,204.7z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-3-mask-3">
+                                    <path class="st0" d="M240.1,563c5.8,0.6,12,0.9,18.5,1c98.5,1.1,135.8-13.6,152.8-20.4c17-6.8,38.5-32.8,38.5-66.8
+                                    c0-12.5-0.8-49.6-1.8-92.4H152.8c0.9,51,1.8,94.3,1.8,101.5C154.5,501.7,159.5,555,240.1,563z" fill="#FFFFFF"/>
+                                </mask>
+                                <linearGradient id="pot-main-bg-3" gradientTransform="rotate(90)">
+                                    <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-3" />
+                                    <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-3"/>
+                                    <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-3"/>
+                                    <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-3"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="st0" cx="300" cy="562.6" rx="123.1" ry="11.2" opacity="0.2" fill="#000000"/>
+                            <path class="st0" d="M443.2,208.5c-1.1-19.2-7.9-53.2-46.4-70.2s-56.6-19.2-57.7-37.4s24.9-56.6,23.8-64.5
+                            c0-5.6-29.7-10.2-66.2-10.2c-36.6,0-66.2,4.6-66.2,10.2c0,0.3,0.1,0.7,0.3,1c0.8,2.4,3.1,8.6,7.6,14.9c5.7,7.9,17,30.6,17,38.5
+                            s1.1,21.5-7.9,26C238.3,121.3,184,144,184,144s-34,14.7-34,61.1s4.5,263.8,4.5,280.8c0,15.8,4.9,69.1,85.6,77.1
+                            c5.8,0.6,12,0.9,18.5,1c98.5,1.1,135.8-13.6,152.8-20.4c17-6.8,38.5-32.8,38.5-66.8S444.3,227.7,443.2,208.5z" fill="url(#pot-main-bg-3)"/>
+                            <g>
+                                <ellipse class="st0" cx="296" cy="37.7" rx="61" ry="8.3" fill="#66563A"/>
+                                <path class="st1" d="M270.9,53.3l-18.5-1.5c0,0,13.5,28.9,13.5,32s6.9,32-6.6,45.1c-13.5,13.1-75.5,21.6-83.6,54
+                                    c-8.1,32.4,0,277.1,0.4,297.5s13.1,40.1,29.3,50.5h13.5c0,0-25.4-17.3-26.2-52c-0.8-34.7,0-244.3,0-262.4s1.2-33.8,15.8-43.1
+                                    s52.4-22.5,59.4-38.6s6.6-36.2,5-47C271.3,76.8,270.9,53.3,270.9,53.3z" opacity="0.4" fill="#FFFFFF"/>
+                                <path class="st2" d="M411.5,544.1c17-6.8,38.5-32.8,38.5-66.8s-5.7-249.1-6.8-268.3s-7.9-53.7-46.4-70.7s-55.8-18.8-57.7-36.8
+                                    c-2-18,24.9-56.6,23.8-64.5l0,0c0,0-1.5,8.5-24,11.1c0,0-6.9,30.1-6.9,52.9c0,22.8,21.4,31.5,52.6,46.5
+                                    c31.2,15,33.8,47.1,34.7,91.6c0.9,44.5,17.1,217.4,4.9,250.9c-12.1,33.5-35.3,58.7-105.8,67.3c-52.1,6.4-71.5,6.5-78.1,6.2
+                                    c5.8,0.6,12,0.9,18.5,1C357.2,565.6,394.5,550.9,411.5,544.1z" opacity="0.2" fill="#000000"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-140' mask="url(#pot-3-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-3-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-3-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+                        
+                        <svg version="1.1" class="pot-option pot-option-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="4">
+                            <defs>
+                                <mask id="pot-4-mask-1">
+                                    <path class="st0" d="M380.7,76.6c-10.3-3.9-55.4-3.9-85.1-3.9c0,0-41.2-2.6-55.4-2.6c-14.2,0-36.1,2.6-36.1,23.2s3.9,18,15.5,27.1
+                                        s63.2,2.6,77.3,2.6c14.2,0,77.3,5.2,85.1,5.2s19.3-10.3,19.3-25.8S391,80.4,380.7,76.6z" fill="#000000"/>
+                                    <path class="st1" d="M447.7,143.6c-18-11.6-18-9-12.9-25.8c4.4-14.2,1.3-51.5-27.9-68.9c-5.3-3.1-11.4-5.6-18.5-7.2
+                                        c-20.4-4.5-53.9-6.3-86.3-6.9h-60.7c-14.2,0.2-24.6,0.5-28.3,0.5c-14.2,0-45.1,28.4-43.8,54.1c1.3,25.8,10.3,32.2,10.3,42.5
+                                        s-25.8-2.6-36.1,20.6c-7.3,16.4-15.2,30.8-23.3,54.3h368C475.2,171.7,460.5,151.8,447.7,143.6z M382,128.1
+                                        c-7.7,0-70.9-5.2-85.1-5.2c-14.2,0-65.7,6.4-77.3-2.6s-15.5-6.4-15.5-27.1s21.9-23.2,36.1-23.2c14.2,0,55.4,2.6,55.4,2.6
+                                        c29.6,0,74.8,0,85.1,3.9s20.6,10.3,20.6,25.8S389.7,128.1,382,128.1z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-4-mask-2">
+                                    <path class="st1" d="M488.2,206.9h-368c-3.4,9.7-6.8,21-10.2,34.7c-5.8,23.3-14.6,88.2-21.2,137.3h427.3
+                                    c-1.9-38.3-3.9-80.5-13-120.6C498.6,238.4,493.6,221.4,488.2,206.9z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-4-mask-3">
+                                    <path class="st0" d="M522.5,451.7c-3.7-20.8-5-45.8-6.4-72.8H88.8c-4.2,31.4-7.5,56.4-8.5,59.9c-2.6,9-27.1,72.2,55.4,91.5
+                                    c14.7,3.4,28.4,6.3,41.4,8.7c60,11,103.8,11.9,149.3,11.9c55.4,0,149.5-10.3,168.9-20.6C514.8,520,531.5,501.9,522.5,451.7z" fill="#FFFFFF"/>
+                                </mask>
+                                <linearGradient id="pot-main-bg-4" gradientTransform="rotate(90)">
+                                    <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-4" />
+                                    <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-4"/>
+                                    <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-4"/>
+                                    <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-4"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="st0" cx="305.2" cy="548.8" rx="182.8" ry="16.6" opacity="0.2" fill="#000000"/>
+                            <g>
+                                <g>
+                                    <path class="st0" d="M296.9,123c14.2,0,77.3,5.2,85.1,5.2s19.3-10.3,19.3-25.8S391,80.4,380.7,76.6s-55.4-3.9-85.1-3.9
+                                        c0,0-41.2-2.6-55.4-2.6c-14.2,0-36.1,2.6-36.1,23.2s3.9,18,15.5,27.1C231.2,129.4,282.7,123,296.9,123z" fill="none"/>
+                                    <path class="st1" d="M522.5,451.7c-9-50.3-3.9-125-19.3-193.3c-15.5-68.3-37.4-103.1-55.4-114.7c-18-11.6-18-9-12.9-25.8
+                                        c4.4-14.2,1.3-51.5-27.9-68.9c-5.3-3.1-11.4-5.6-18.5-7.2c-46.4-10.3-161.1-6.4-175.3-6.4S168,63.7,169.3,89.5
+                                        c1.3,25.8,10.3,32.2,10.3,42.5c0,10.3-25.8-2.6-36.1,20.6c-10.3,23.2-21.9,42.5-33.5,88.9c-9.6,38.3-27.1,188.2-29.6,197.2
+                                        c-2.6,9-27.1,72.2,55.4,91.5c14.7,3.4,28.4,6.3,41.4,8.7c60,11,103.8,11.9,149.3,11.9c55.4,0,149.5-10.3,168.9-20.6
+                                        C514.8,520,531.5,501.9,522.5,451.7z M240.2,70.1c14.2,0,55.4,2.6,55.4,2.6c29.6,0,74.8,0,85.1,3.9s20.6,10.3,20.6,25.8
+                                        s-11.6,25.8-19.3,25.8s-70.9-5.2-85.1-5.2c-14.2,0-65.7,6.4-77.3-2.6c-11.6-9-15.5-6.4-15.5-27.1S226,70.1,240.2,70.1z" fill="url(#pot-main-bg-4)"/>
+                                </g>
+                            </g>
+                            <g>
+                                <path class="st0" d="M495.4,530.2c19.3-10.3,36.1-28.4,27.1-78.6s-3.9-125-19.3-193.3c-15.5-68.3-37.4-103.1-55.4-114.7
+                                    c-18-11.6-18-9-12.9-25.8c4.4-14.2,1.3-51.5-27.9-68.9c0.7,0.7,19.6,20.4,19.6,47.3c0,27.3-7.6,24.4-7.6,35.9s26.7,8.5,36.2,61.5
+                                    c9.5,53,19.4,171.8,21.1,205c1.6,33.2,14.8,48.7,14.8,66.1c0,17.4,2,37.8-19.7,47.1c-21.7,9.2-200.9,36.8-294.1,27.1
+                                    c60,11,103.8,11.9,149.3,11.9C382,550.8,476.1,540.5,495.4,530.2z" opacity="0.2" fill="#000000"/>
+                                <path class="st0" d="M219.6,120.4c-11.6-9-15.5-6.4-15.5-27.1c0-16.7,14.3-21.6,27.3-22.8v0c0,0-31.2-1.3-32.5,22.2
+                                    c-1.3,23.5,7.2,29.8,30.1,31.1v0C224.9,123.1,221.6,122,219.6,120.4z" opacity="0.2" fill="#000000"/>
+                                <path class="st1" d="M207.1,48.5c0.7-0.7-0.1-1.8-1-1.3c-10.1,5.7-29.4,19.5-27.2,41.7c2.8,28.6,11,30.1,11,45.9
+                                    c0,14.9-23,11.2-28,19.4S133,216,128.7,270s-13.8,165.9-18.4,178.4c-4.6,12.5-6.3,28.3-3.9,32.6s4,10.7,18,14.4
+                                    c3.7,1,12.6,3.3,19.5,5.1c4.4,1.2,8.6-2.2,8.4-6.8c-0.6-14.7-1.3-43.9,0.8-61.1c3-23.7,10.3-157.3,14.8-182
+                                    c5.6-30.6,13.5-77.3,23.4-96.1c7.5-14.3,4.3-22.6,0.7-35.5c-3.8-13.3-7.5-19.4-6.7-32.9C185.8,75.5,191.4,62.9,207.1,48.5z" opacity="0.4" fill="#FFFFFF"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-140' mask="url(#pot-4-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-4-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-4-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+                        
+                        <svg version="1.1" class="pot-option pot-option-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="5">
+                            <defs>
+                                <mask id="pot-5-mask-1">
+                                    <path class="st1" d="M444.7,64.8c0-9.8-6.6-17.7-14.9-17.8c-0.1-3.4-0.1-6.3-0.2-8.8c0.1-0.5,0-0.9,0-0.9
+                                    c0-6.3-49.8-11.5-114.2-12.2h-32.3C218.8,25.8,169,31,169,37.3c0,2.7,0.1,6,0.2,9.7c-7.8,0.7-14,8.4-14,17.8
+                                    c0,9.8,6.8,17.8,15.1,17.8c0.4,0,0.9,0,1.3-0.1c3,34.9,8.2,81.1,14.1,121.5h241.5c1.5-39.2,2.4-86.2,2.7-121.5
+                                    C438.1,82.4,444.7,74.5,444.7,64.8z" fill="#FFFFFF"/>
+                                    <ellipse class="st0" cx="299.9" cy="38.5" rx="123.2" ry="8.6" fill="#000000"/>
+                                </mask>
+                                <mask id="pot-5-mask-2">
+                                    <path class="st1" d="M427.2,204.1H185.8c0.4,2.5,0.7,5,1.1,7.5c5.2,35.2,16.2,106.8,27.1,171.5h189.4
+                                    c8.6-48.4,16.9-95.3,19.4-111.1C424.6,260.1,426.1,234.4,427.2,204.1z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-5-mask-3">
+                                    <path class="st0" d="M381.6,514.6c0-7.6,11-70.9,21.8-131.6H213.9c9,53.8,18,102.7,23.6,122c9.5,32.8,9.3,49.3,39.4,55.1
+                                    c4.3,0.8,9.2,1.4,14.9,1.9h36.4C380.4,557.2,381.6,527.2,381.6,514.6z" fill="#FFFFFF"/>
+                                </mask>
+                                <linearGradient id="pot-main-bg-5" gradientTransform="rotate(90)">
+                                    <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-5" />
+                                    <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-5"/>
+                                    <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-5"/>
+                                    <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-5"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="st0" cx="312.3" cy="561.4" rx="105.1" ry="13.6" opacity="0.2" fill="#000000"/>
+                            <path class="st0" d="M429.8,47c-0.1-3.4-0.1-6.3-0.2-8.8c0.1-0.5,0-0.9,0-0.9c0-6.8-58.3-12.3-130.3-12.3S169,30.5,169,37.3
+                            c0,2.7,0.1,6,0.2,9.7c-7.8,0.7-14,8.4-14,17.8c0,9.8,6.8,17.8,15.1,17.8c0.4,0,0.9,0,1.3-0.1c3.2,37.1,8.9,86.8,15.2,129
+                            c9.6,64.5,38.4,251,50.7,293.5c9.5,32.8,9.3,49.3,39.4,55.1c9,1.7,20.6,2.5,36,2.5c67.2,0,68.6-34.3,68.6-48s35.7-207.1,41.1-242.8
+                            c4.1-27,6.7-126.8,7.1-189.3c8.2-0.2,14.8-8.1,14.8-17.8C444.7,55,438.1,47.1,429.8,47z" fill="url(#pot-main-bg-5)"/>
+                            <g>
+                                <ellipse class="st0" cx="299.9" cy="38.5" rx="123.2" ry="8.6" fill="#66563A"/>
+                                <path class="st1" d="M218.9,71.6c0,0-15.6,0.6-27.1-2.8c0,0,10.7,100.3,26.6,205.4c17.3,114.4,40.1,234.8,46.2,247h8.9L218.9,71.6z
+                                    " opacity="0.4" fill="#FFFFFF"/>
+                                <path class="st2" d="M381.6,514.9c0-13.7,35.7-207.1,41.1-242.8c4.1-27,6.7-126.8,7.1-189.3c8.2-0.2,14.8-8.1,14.8-17.8
+                                    c0-9.8-6.6-17.7-14.9-17.8c-0.1-3.4-0.1-6.3-0.2-8.8c-0.4,2-4.2,7.3-31.6,11.1c0,0,5.1,62.7,5.1,102.3s2.8,67.6-2.8,108.9
+                                    c-5.6,41.3-28.7,170.9-32.2,189.8c-3.5,18.9-12.3,62.7-9.1,74.9c3.2,12.3-11.9,31.2-81.9,34.8c9,1.7,20.6,2.5,36,2.5
+                                    C380.2,562.9,381.6,528.6,381.6,514.9z" opacity="0.2" fill="#000000"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-150' mask="url(#pot-5-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-5-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-5-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+                        </svg>
+                        
+                        <svg version="1.1" class="pot-option pot-option-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="6">
+                            <defs>
+                                <mask id="pot-6-mask-1">
+                                    <path class="st1" d="M436.1,41.4c0-0.5-0.1-0.8-0.1-0.8C433.4,31.9,378.5,25,311.2,25s-122.2,6.9-124.8,15.6c0,0-10.5,39-17,121
+                                    c-1.1,14.1-2.3,28.2-3.5,42.2h214.8C394.9,162.2,438.7,80,436.1,41.4z" fill="#FFFFFF"/>
+                                    <ellipse class="st0" cx="311.5" cy="42.1" rx="116.9" ry="11.6" fill="#000000"/>
+                                </mask>
+                                <mask id="pot-6-mask-2">
+                                    <path class="st1" d="M376.3,222.7c0-4.4,1.7-10.9,4.4-19H165.9c-5.8,67.3-11.7,130.6-9.5,167.3c0.2,3.5,0.5,7.3,0.9,11.5h284.6
+                                    c-6.9-52.8-29.5-79.1-39.6-94.8C390.6,269.6,376.3,250.1,376.3,222.7z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-6-mask-3">
+                                    <path class="st0" d="M443.9,410.1c-0.2-9.9-0.9-19.1-2-27.5H157.3c4.8,48.7,25.1,139.2,100.6,166.7c1.7,0.6,3.4,1.2,5.1,1.8
+                                    c16.7,5.7,32.7,8.8,47.5,10.3h38.1c35.8-3.5,60.9-15.9,69.3-21.2C432.2,531.1,445.2,481.6,443.9,410.1z" fill="#FFFFFF"/>
+                                </mask>
+                                <linearGradient id="pot-main-bg-6" gradientTransform="rotate(90)">
+                                    <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-6" />
+                                    <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-6"/>
+                                    <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-6"/>
+                                    <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-6"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="st0" cx="311.5" cy="562.1" rx="132.5" ry="12.9" opacity="0.2" fill="#000000"/>
+                            <path class="st0" d="M443.9,410.1c-1.3-71.6-29.9-104.1-41.6-122.3c-11.7-18.2-26-37.7-26-65c0-27.2,62.9-135.3,59.8-181.3
+                            c0-0.5-0.1-0.8-0.1-0.8C433.4,31.9,378.5,25,311.2,25s-122.2,6.9-124.8,15.6c0,0-10.5,39-17,121s-15.6,165.2-13,209.4
+                            c2.6,44.2,19.5,148.3,101.5,178.2c1.7,0.6,3.4,1.2,5.1,1.8c79.5,26.9,140.9-2,154.9-10.9C432.2,531.1,445.2,481.6,443.9,410.1z" fill="url(#pot-main-bg-6)"/>
+                            <g>
+                                <ellipse class="st0" cx="311.5" cy="42.1" rx="116.9" ry="11.6" fill="#66563A"/>
+                                <path class="st1" d="M231.1,85c-24.4,0-31.9-6.4-31.9-6.4s-4.4,10.4-8,57.8s-17.1,181.1-14.8,214.3s12.4,98.8,33.2,131.5
+                                    s25.7,33.7,25.7,33.7l6.7,2.7c3.1,1.3,6-2.3,4.1-5c-7.7-11.5-20.2-30.9-25-43.3c-6.8-18-23.9-68.6-23.9-122.2s12.8-182,19.9-210.4
+                                    S231.1,85,231.1,85z" opacity="0.4" fill="#FFFFFF"/>
+                                <path class="st2" d="M417.9,540.1c14.3-9.1,27.3-58.5,26-130.1c-1.3-71.6-29.9-104.1-41.6-122.3c-11.7-18.2-26-37.7-26-65
+                                    c0-27.2,62.9-135.3,59.8-181.3c-0.2,2.8-3.5,11.7-38.7,13.7c0,0,12.5,20.3,0.4,64.1c-9.2,33.4-47.8,49.4-46.5,105.6
+                                    c1.3,56.2,77.5,107.4,75.7,207.9c-1.8,100.5-27.9,100-67.3,111.5c-33.2,9.7-85,7.5-96.8,6.8C342.5,577.8,403.9,549,417.9,540.1z" opacity="0.2" fill="#000000"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-150' mask="url(#pot-6-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-6-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-6-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+                        
+                        <svg version="1.1" class="pot-option pot-option-7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="7">
+                            <defs>
+                                <mask id="pot-7-mask-1">
+                                    <path class="st1" d="M389.6,35.2c0.1-0.5,0-0.8,0-0.8c0-4.6-26.5-8.5-61.5-9.3h-26.7c-35,0.8-61.5,4.6-61.5,9.3
+                                    c0,0-5,42.2-8.8,63.6c-3.8,21.4-18.9,57.9-18.9,94.4c0,3.9,0.4,7.9,1,11.9H344c-1.9-10.5-3.5-21.6-3.5-34.5
+                                    C340.5,137.2,389.1,79.2,389.6,35.2z" fill="#FFFFFF"/>
+                                    <ellipse class="st0" cx="315.4" cy="35.7" rx="67.3" ry="6" fill="#000000"/>
+                                </mask>
+                                <mask id="pot-7-mask-2">
+                                    <path class="st1" d="M344,204.3H213.1c5,32.8,28,65.6,28,81.3c0,7.7-0.2,50.4-0.5,97.8h106.1c2-60,4-118.9,4-131.8
+                                    C350.6,234.8,346.9,220.4,344,204.3z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-7-mask-3">
+                                    <path class="st0" d="M341.8,527.3c0-5.4,2.5-75.4,4.8-143.9H240.6c-0.3,61-0.7,129.9-0.7,142.6c0,13.7,5.5,24.1,18.1,30.3
+                                    c8.3,4.1,19.7,6.2,34.7,6.2C330.5,562.6,341.8,537.4,341.8,527.3z" fill="#FFFFFF"/>
+                                </mask>
+                                <linearGradient id="pot-main-bg-7" gradientTransform="rotate(90)">
+                                    <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-7" />
+                                    <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-7"/>
+                                    <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-7"/>
+                                    <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-7"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="st0" cx="288.8" cy="562.6" rx="78.4" ry="12.4" opacity="0.2" fill="#000000"/>
+                            <path class="st0" d="M389.6,34.4c0-5.2-33.5-9.4-74.9-9.4s-74.9,4.2-74.9,9.4c0,0-5,42.2-8.8,63.6c-3.8,21.4-18.9,57.9-18.9,94.4
+                            s29,75.5,29,93.2c0,17.6-1.3,217.8-1.3,240.5c0,13.7,5.5,24.1,18.1,30.3c8.3,4.1,19.7,6.2,34.7,6.2c37.8,0,49.1-25.2,49.1-35.2
+                            s8.8-248,8.8-275.7s-10.1-49.1-10.1-81.8c0-32.5,48.5-90.6,49.1-134.6C389.7,34.7,389.6,34.4,389.6,34.4z" fill="url(#pot-main-bg-7)"/>
+                            <g>
+                                <ellipse class="st0" cx="315.4" cy="35.7" rx="67.3" ry="6" fill="#66563A"/>
+                                <path class="st1" d="M253.5,64.9c0,0-10.6,65.1-18.3,84s-6,49.3-2.6,60.4c3.4,11.1,21.9,46.7,23.1,62.6
+                                    c1.3,15.9-0.9,238.3-0.9,238.3s4.7,7.7,9,0c4.3-7.7,7.3-217.7,3.9-246c-3.4-28.3-26.8-50.5-24-81.4C247.7,139.9,277.2,67,277.2,67
+                                    L253.5,64.9z" opacity="0.4" fill="#FFFFFF"/>
+                                <path class="st2" d="M341.8,527.3c0-10.1,8.8-248,8.8-275.7s-10.1-49.1-10.1-81.8c0-32.5,48.5-89.7,49.1-135.3
+                                    c-0.3,2.4-2,9.9-31.2,11c0,0,11.4,15.9,3.1,32.9c-8.4,17-36,70.3-37,93.4c-0.9,21.5,12.6,44.7,12.2,80.7c-0.3,36-8,243-10.3,264.2
+                                    c-2.2,21.2-6.8,40.7-68.5,39.6c8.3,4.1,19.7,6.2,34.7,6.2C330.5,562.6,341.8,537.4,341.8,527.3z" opacity="0.2" fill="#000000"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-150' mask="url(#pot-7-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-7-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-7-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+
+                        <svg version="1.1" class="pot-option pot-option-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve" data-id="8">
+                            <defs>
+                                <mask id="pot-8-mask-1">
+                                    <path class="st1" d="M402.3,83.3c-16.5-7.3-31-11.9-39.4-13.2c-20.7-3.2-38.7-6.4-35.5-13.8c3.2-7.4,5.8-6.9,4.8-15.9
+                                    c0-5.6-17.8-10.1-39.8-10.1c-22,0-39.8,4.5-39.8,10.1c0,0-2.1,5.8,3.2,11.1s1.1,11.7-8.5,11.7c-8.7,0-143.9,25.6-167.7,141.7h431.6
+                                    c-8.2-28.5-20.2-54.9-36.5-72.8C455.5,111,426.7,94.1,402.3,83.3z" fill="#FFFFFF"/>
+                                    <ellipse class="st0" cx="293.6" cy="39.9" rx="32.7" ry="5.2" fill="#000000"/>
+                                </mask>
+                                <mask id="pot-8-mask-2">
+                                    <path class="st1" d="M524.6,288.6c-1.1-25.8-5.4-55.7-13.4-83.6H79.6c-2.3,11.3-3.6,23.4-3.6,36.4c0,54.6-3.1,99.7,1.4,138.2h438.9
+                                    C523.4,349.4,526,322,524.6,288.6z" fill="#FFFFFF"/>
+                                </mask>
+                                <mask id="pot-8-mask-3">
+                                    <path class="st0" d="M407.5,531.7c0,0,73.7-42.2,92.8-97.8c6.8-19.9,12.2-37.5,16.1-54.3H77.5c7.8,65.4,37.8,111.6,143.3,152.1
+                                    c0,7.1,13.7,13.5,35.1,17.6c14.3,2.8,32.1,4.5,51.6,4.9H321C369.4,553.3,407.5,543.6,407.5,531.7z" fill="#FFFFFF"/>
+                                </mask>
+                                <linearGradient id="pot-main-bg-8" gradientTransform="rotate(90)">
+                                    <stop offset="20%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-top-8" />
+                                    <stop offset="40%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-8"/>
+                                    <stop offset="60%"  stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-middle-8"/>
+                                    <stop offset="80%" stop-color="#E9AB64" data-color-1='#E9AB64' data-color-2='#E9AB64' class="bg-color-bottom-8"/>
+                                </linearGradient>
+                            </defs>
+                            <ellipse class="st0" cx="315.3" cy="554.3" rx="148.9" ry="15.4" fill="#66563A"/>
+                            <path class="st0" d="M524.6,288.6c-2.1-52-17.5-120.9-49.8-156.4c-19.3-21.2-48.1-38.1-72.5-48.9c-16.5-7.3-31-11.9-39.4-13.2
+                            c-20.7-3.2-38.7-6.4-35.5-13.8s5.8-6.9,4.8-15.9c0-5.6-17.8-10.1-39.8-10.1c-22,0-39.8,4.5-39.8,10.1c0,0-2.1,5.8,3.2,11.1
+                            s1.1,11.7-8.5,11.7C237.8,63.2,76,94,76,241.4S53.2,467.3,220.8,531.7c0,7.1,13.7,13.5,35.1,17.6c16,3.1,36.2,4.9,58.2,4.9
+                            c51.5,0,93.3-10.1,93.3-22.5c0,0,73.7-42.2,92.8-97.8C519.3,378.2,526.8,340.6,524.6,288.6z" fill="url(#pot-main-bg-8)"/>
+                            <g>
+                                <ellipse class="st2" cx="293.6" cy="39.9" rx="32.7" ry="5.2" fill="#66563A"/>
+                                <path class="st0" d="M197.2,104.4c0,0-93.9,22.3-93.9,155.9s-7.2,186.1,110.6,244.2c0,0,22.3,10.3,23.1-7.2
+                                    c0.8-17.5-87.5-43.4-94.7-101.8c-7.2-58.9-6.4-139.2,0-181.4c6.2-40.9,38.2-75.6,52.5-83.5C209.1,122.7,217.9,104.4,197.2,104.4z"
+                                     opacity="0.4" fill="#FFFFFF"/>
+                                <path class="st1" d="M407.4,531.7c0,0,73.7-42.2,92.8-97.8c19.1-55.7,26.5-93.3,24.4-145.3c-2.1-52-17.5-120.9-49.8-156.4
+                                    c-19.3-21.2-48.1-38.1-72.5-48.9c0.8,0.4,97.1,44,80.5,245.2c-16.7,202-154.4,218-226.9,220.9l0,0c16,3.1,36.2,4.9,58.2,4.9
+                                    C365.6,554.3,407.4,544.2,407.4,531.7z" opacity="0.2" fill="#000000"/>
+                            </g>
+                            <image href="" height="600" width="600" y='-150' mask="url(#pot-8-mask-1)" class="pattern-holder-top" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='0' mask="url(#pot-8-mask-2)" class="pattern-holder-middle" opacity=".3"></image>
+                            <image href="" height="600" width="600" y='140' mask="url(#pot-8-mask-3)" class="pattern-holder-bottom" opacity=".3"></image>
+                        </svg>
+
+                    </div>
+
+                    <div class="turntable-holder">
+                        <img src="assets/images/turntable.png" class="turntable" alt="">
+                    </div>
+                </div>
+                <div class="navigation-holder">
+                    <div class="steps step-1">
+                        <div class="step-instructions step-1-instructions">
+                            Step 1: <span class='orange-text'>Choose shape</span>
+                        </div>
+                        <div class="options-holder">
+                            <div class="shape-button shape-button-1" data-id="1"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-1.png" alt="Shape 1"></div>
+                            <div class="shape-button shape-button-2" data-id="2"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-2.png" alt="Shape 2"></div>
+                            <div class="shape-button shape-button-3" data-id="3"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-3.png" alt="Shape 3"></div>
+                            <div class="shape-button shape-button-4" data-id="4"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-4.png" alt="Shape 4"></div>
+                            <div class="shape-button shape-button-5" data-id="5"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-5.png" alt="Shape 5"></div>
+                            <div class="shape-button shape-button-6" data-id="6"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-6.png" alt="Shape 6"></div>
+                            <div class="shape-button shape-button-7" data-id="7"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-7.png" alt="Shape 7"></div>
+                            <div class="shape-button shape-button-8" data-id="8"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/shape-btn-8.png" alt="Shape 8"></div>
+                        </div>
+                        <div class="button-holder">
+                            <div class="ok-button step-1-ok-button">
+                                <img src="assets/images/ok-btn.png" alt="">
+                            </div>
+                            <div class="info-button step-1-info-button">
+                                <img src="assets/images/info-btn.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="steps step-2">
+                        <div class="step-instructions step-2-instructions">
+                            Step 2: <span class='orange-text'>Choose a texture</span> <br/>
+                            <div class="area-button" data-id="top">Top</div>
+                            <div class="area-button-divider">|</div>
+                            <div class="area-button" data-id="middle">Middle</div>
+                            <div class="area-button-divider">|</div>
+                            <div class="area-button" data-id="bottom">Bottom</div>
+                            <div class="area-button-divider">||</div>
+                            <div class="clear-pattern-button">Clear</div>
+                        </div>
+                        <div class="options-holder">
+                            <div class="pattern-button pattern-button-1" data-id="1"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-1.png" alt="Pattern 1"></div>
+                            <div class="pattern-button pattern-button-2" data-id="2"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-2.png" alt="Pattern 2"></div>
+                            <div class="pattern-button pattern-button-3" data-id="3"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-3.png" alt="Pattern 3"></div>
+                            <div class="pattern-button pattern-button-4" data-id="4"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-4.png" alt="Pattern 4"></div>
+                            <div class="pattern-button pattern-button-5" data-id="5"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-5.png" alt="Pattern 5"></div>
+                            <div class="pattern-button pattern-button-6" data-id="6"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-6.png" alt="Pattern 6"></div>
+                            <div class="pattern-button pattern-button-7" data-id="7"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-7.png" alt="Pattern 7"></div>
+                            <div class="pattern-button pattern-button-8" data-id="8"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/pattern-btn-8.png" alt="Pattern 8"></div>
+                        </div>
+                        <div class="button-holder">
+                            <div class="ok-button step-2-ok-button">
+                                <img src="assets/images/ok-btn.png" alt="">
+                            </div>
+                            <div class="info-button step-2-info-button">
+                                <img src="assets/images/info-btn.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="steps step-3">
+                        <div class="step-instructions step-3-instructions">
+                            Step 3: <span class='orange-text'>Choose your glazes</span> <br/>
+                            <div class="area-button" data-id="top">Top</div>
+                            <div class="area-button-divider">|</div>
+                            <div class="area-button" data-id="middle">Middle</div>
+                            <div class="area-button-divider">|</div>
+                            <div class="area-button" data-id="bottom">Bottom</div>
+                            <div class="area-button-divider">||</div>
+                            <div class="clear-color-button">Clear</div>
+                        </div>
+                        <div class="options-holder">
+                            <div class="color-button color-button-1" data-id="1" data-color-1="#DFD9C0" data-color-2="#F9C43F"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-1.png" alt="Color 1"></div>
+                            <div class="color-button color-button-2" data-id="2" data-color-1="#FF8F6D" data-color-2="#FF5D01"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-2.png" alt="Color 2"></div>
+                            <div class="color-button color-button-3" data-id="3" data-color-1="#F17C75" data-color-2="#D4001D"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-3.png" alt="Color 3"></div>
+                            <div class="color-button color-button-4" data-id="4" data-color-1="#E2A7A3" data-color-2="#E76A62"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-4.png" alt="Color 4"></div>
+                            <div class="color-button color-button-5" data-id="5" data-color-1="#6985F2" data-color-2="#122BEB"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-5.png" alt="Color 5"></div>
+                            <div class="color-button color-button-6" data-id="6" data-color-1="#A26E87" data-color-2="#724156"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-6.png" alt="Color 6"></div>
+                            <div class="color-button color-button-7" data-id="7" data-color-1="#B2BE9D" data-color-2="#82A757"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-7.png" alt="Color 7"></div>
+                            <div class="color-button color-button-8" data-id="8" data-color-1="#DBC8C1" data-color-2="#D4BCA8"><img src="assets/images/color-selected-info.png" class="selected-indicator-info"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/color-btn-8.png" alt="Color 8"></div>
+                        </div>
+                        <div class="button-holder">
+                            <div class="ok-button step-3-ok-button">
+                                <img src="assets/images/ok-btn.png" alt="">
+                            </div>
+                            <div class="info-button step-3-info-button">
+                                <img src="assets/images/info-btn.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="steps step-4">
+                        <div class="step-instructions step-4-instructions">
+                            Step 4: <span class='orange-text'>Choose your firing temperature</span>
+                        </div>
+                        <div class="options-holder">
+                            <div class="temp-button temp-button-1" data-id="1"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/temp-btn-1.png" alt="Temp 1"></div>
+                            <div class="temp-button temp-button-2" data-id="2"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/temp-btn-2.png" alt="Temp 2"></div>
+                            <div class="temp-button temp-button-3" data-id="3"><img src="assets/images/selected-indicator.png" class="selected-indicator"><img src="assets/images/temp-btn-3.png" alt="Temp 3"></div>
+                        </div>
+                        <div class="button-holder">
+                            <div class="reset-button step-4-reset-button">
+                                <img src="assets/images/reset-btn.png" alt="">
+                            </div>
+                            <div class="ok-button step-4-ok-button">
+                                <img src="assets/images/ok-btn.png" alt="">
+                            </div>
+                            <div class="info-button step-4-info-button">
+                                <img src="assets/images/info-btn.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="steps step-5">
+                        <div class="step-instructions step-5-instructions">
+                            Step 5: <span class='orange-text'>Download & Share</span>
+                        </div>
+                        <div class="download-button">
+                            <img src="assets/images/download-btn.png" alt="">
+                        </div>
+                        <div class="restart-button">
+                            <a href="./game.html">
+                                <img src="assets/images/restart-btn.png" alt="">
+                            </a>
+                        </div>
+                        <div class="findOutMore-button">
+                            <img src="assets/images/findoutmore-btn.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="oven-bg">
+                <div id="particles-js"></div>
+                <img src="assets/images/oven-bg.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

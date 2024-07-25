@@ -1,0 +1,13 @@
+{
+    "name": "Create",
+    "alias": "create",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Create\\Providers\\CreateServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

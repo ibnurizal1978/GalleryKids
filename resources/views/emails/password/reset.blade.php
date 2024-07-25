@@ -1,0 +1,1 @@
+Your OTP for password reset is {{$otp}}

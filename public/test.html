@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+
+<title>Assisi</title>
+
+</head>
+<style>
+</style>
+<body>
+
+<div>TEEEEEEEEEEEEEEEERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR</div>
+ </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+
+  $(document).ready(function() 
+  {
+  console.log("call");
+    callAuthenticate();
+	
+
+});
+
+
+function callAuthenticate()
+{
+	
+	$.ajax({
+	  type: 'POST',
+		dataType: 'jsonp',
+          cors: true ,
+          contentType:'application/json',
+          secure: true,
+	  url: 'https://ngssgproxyuat.memgate.com/api/user/authenticate', 
+	  headers: {
+	    'SvcAuth':'VFJJTkFY,VkEyOFloSjlDd3lCWmRLVA==',
+		'Access-Control-Allow-Origin': '*',
+		'Accept':'application/json',
+	  },
+      dataType: 'json', 
+	   data: JSON.stringify({
+      "username":'TRINAX',
+	  "password":"LFy4cUD6E3Gu"
+	  
+		}),
+	  success: function(res) {  
+	   console.log("success");
+       console.log("return Result"+res);
+      
+	  },
+	  error: function(res) {
+        console.log("return Result"+res);
+	  },
+	  complete: function() {
+
+	  }
+  });
+
+
+}
+</script>
+
+   
+
+</html>

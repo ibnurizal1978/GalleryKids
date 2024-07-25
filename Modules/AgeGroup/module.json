@@ -1,0 +1,13 @@
+{
+    "name": "AgeGroup",
+    "alias": "agegroup",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\AgeGroup\\Providers\\AgeGroupServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
